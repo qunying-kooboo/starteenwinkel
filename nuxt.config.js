@@ -38,6 +38,7 @@ module.exports = {
   css: [
     // Css file in the project
     '../node_modules/normalize.css/normalize.css',
+    '../node_modules/font-awesome/css/font-awesome.min.css',
     // Sass file in the project
     { src: '~assets/css/main.scss', lang: 'scss' } // scss instead of sass
   ]

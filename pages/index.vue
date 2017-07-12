@@ -1,5 +1,8 @@
 <template>
   <section class="container">
+    <ul class="page-list nostyle">
+      <li><a href="home">home</a></li>
+    </ul>
     <div>
       <logo/>
       <h1 class="title">
@@ -28,8 +31,19 @@ export default {
   }
 }
 </script>
-<style>
-.container
+<style scoped lang="scss">
+.page-list{
+  display: inline-block;
+  padding: 20px;
+  border: solid #ccc 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  a{
+    color: #393939;
+    text-decoration: none;
+  }
+}
+/*.container
 {
   min-height: 100vh;
   display: flex;
@@ -39,7 +53,7 @@ export default {
 }
 .title
 {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -57,5 +71,5 @@ export default {
 .links
 {
   padding-top: 15px;
-}
+}*/
 </style>

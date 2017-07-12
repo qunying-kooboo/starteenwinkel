@@ -1,0 +1,37 @@
+/**
+** Clearfix **/
+@mixin clearfix {
+  &:before, &:after {
+    display: table;
+    content: "";
+    border-collapse: collapse;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+/**
+** Horizontal Center **/
+@mixin horizontal-center($is-important: false) {
+  margin-left: if($is-important, auto !important, auto);
+  margin-right: if($is-important, auto !important, auto);
+}
+
+/**
+** sreen breakPoint **/
+
+//** tablet(>=768px)
+@mixin tablet {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+//** desktop(>=1280px)
+@mixin desktop {
+  @media only screen and (min-width: 1280px) {
+    @content;
+  }
+}

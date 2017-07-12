@@ -1,0 +1,15 @@
+.hero-block {
+  background: $green-darker;
+  color: $white;
+  font-size: px-to-rem(18px);
+  line-height: px-to-rate(24px,18px);
+  padding: 16px 0;
+  h2{
+    font-size: px-to-rem(48px);
+    line-height: 1;
+  }
+  .load-more{
+    margin: 25px 0 0;
+    text-align: center;
+  }
+}

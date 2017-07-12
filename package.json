@@ -5,6 +5,7 @@
   "author": "qunying",
   "private": true,
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "nuxt": "latest"
   },
   "scripts": {
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
+    "bulma": "^0.4.3",
     "coffee-loader": "^0.7.3",
     "coffee-script": "^1.12.6",
     "eslint": "^3.15.0",
@@ -25,6 +27,7 @@
     "eslint-plugin-html": "^2.0.0",
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^2.0.1",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
     "pug": "^2.0.0-beta6",
