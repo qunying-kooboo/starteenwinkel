@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="starteenwinkel-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.1.1_homepage_nav_starteenwinkel_mobile" transform="translate(-253.000000, -136.000000)" fill="#9F9F9F">
+            <g id="navigation" transform="translate(-11.000000, 63.000000)">
+                <g id="navigatie" transform="translate(96.000000, 49.000000)">
+                    <path d="M177.056966,29.252 L175.250716,30.698 L175.250716,24.5 C175.250716,23.672 174.689466,23 174.000716,23 C173.310716,23 172.750716,23.672 172.750716,24.5 L172.750716,30.698 L170.943216,29.252 C170.368216,28.7915 169.591966,28.979 169.210716,29.6675 C168.826966,30.3575 168.981966,31.289 169.556966,31.748 L173.306966,34.748 C173.516966,34.916 173.758216,35 174.000716,35 C174.241966,35 174.483216,34.916 174.693216,34.748 L178.443216,31.748 C179.018216,31.289 179.173216,30.3575 178.790716,29.6675 C178.406966,28.979 177.630716,28.7915 177.056966,29.252" id="Fill-1" transform="translate(174.000246, 29.000000) rotate(-90.000000) translate(-174.000246, -29.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
