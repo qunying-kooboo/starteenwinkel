@@ -32,8 +32,20 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+
+        config.module.rules.push({
+          test: /\.svg$/,
+          loader: 'svg-sprite-loader',
+          include: /(assets)/,
+          options: {
+            extract: true,
+            spriteFilename: 'icons-sprite.svg'
+          }
+        })
       }
     }
+    // ,
+    // vendor: ['svg-sprite-loader']
   },
   css: [
     // Css file in the project
